@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #3A7B99;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.title-div {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: -500px;
+    margin-left: 90rem;
+    position: absolute;
+}
+
+.title {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-container {
+    height: 85vh;
+    width: 100%;
+    position: absolute;
+    margin-top: 8vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.form-section {
+    height: 100%;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.input-div {
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.label-section {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+
+}
+
+.sub-first-div {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: black;
+}
+
+.img-first-div {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 60px;
+    color: black;
+}
+
+.sub-second-div {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sub-image-div {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 60px;
+}
+
+.input-box {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+}
+
+.input-field {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputAreafield {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding-top: 20px;
+}
+
+.radio-text {
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.myClassName {
+    width: 100px;
+    width: 200px;
+    border-radius: 20px;
+    color: black;
+}
+
+.submit-button {
+    height: 30px;
+    width: 200px;
+    background-color: #a5def1;
+    border-style: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 70px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.range {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.slider-value {
+    margin-left: 30px;
+    width: 35px;
+    height: 35px;
+    background-color: #0077b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid white
+}
+
+.slider-value span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+.errorText {
+    color: #c1121f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: -12rem
+}
+
+.errorGenderText {
+    color: #c1121f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: -10rem
+}
+
+.errorDifficultyText {
+    color: #c1121f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-left: -12rem
+}
+
+.errorIntrestText {
+    color: #c1121f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-left: -17rem
+}
+
+.uploadButton {
+    background-color: #a5def1;
+    border: none;
+    height: 25px;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    border: 1px solid black;
+}
+
+.addButton {
+    background-color: #a5def1;
+    border: none;
+    margin-right: 10px;
+    width: 70px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.removeButton {
+    background-color: #a5def1;
+    border: none;
+    width: 70px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.uploadButton:hover {
+    background-color: #0077b6;
+    color: white;
+}
+
+.addButton:hover {
+    background-color: #0077b6;
+    color: white;
+}
+
+.removeButton:hover {
+    background-color: #0077b6;
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #0077b6;
+    color: white;
+}
+
+.errorCommentText {
+    color: #c1121f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-top: 70px;
+    margin-left: -11rem
+}
+
+.errorProofText {
+    color: #c1121f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-top: 70px;
+    margin-left: -5rem
+}
+
+.errorAreaText {
+    color: #c1121f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin-top: 70px;
+    margin-left: -11rem
+}
+
+.errorButton {
+    background-color: #a5def1;
+    border: none;
+    margin-left: 60px;
+    height: 30px;
+    width: 140px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: -30px;
+}
+
+.errorButton:hover {
+    background-color: #0077b6;
+    color: white;
+}

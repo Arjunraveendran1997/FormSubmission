@@ -1,0 +1,84 @@
+.Main-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #3A7B99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-section {
+    width: 60%;
+    height: 60%;
+    background-color: #70afce;
+
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.boldText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.imgSection {
+    height: 60%;
+    width: 100%;
+    background-color: #70afce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid white;
+
+}
+
+.successText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+
+}
+
+.imgView {
+    width: 250px;
+    height: 250px;
+}
+
+.resultSection {
+    height: 40%;
+    width: 100%;
+    background-color: #a5def1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.buttonView {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.backButton {
+    background-color: #a5def1;
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.backButton:hover {
+    background-color: #0077b6;
+    color: white;
+}

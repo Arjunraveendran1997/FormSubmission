@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv {
+    height: 100vh;
+    width: 100%;
+    background-color: #c1121f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentDiv {
+    width: 60%;
+    height: 60%;
+    background-color: #d90429;
+
+}
+
+.responseText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+
+.img-Section {
+    height: 60%;
+    width: 100%;
+    background-color: #d90429;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid white;
+
+}
+
+.failText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+
+}
+
+.imgEmoji {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+.resultDiv {
+    height: 40%;
+    width: 100%;
+    background-color: #ef233c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.Button {
+    background-color: #e56b6f;
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.Button:hover {
+    background-color: #d90429;
+    color: white;
+}
